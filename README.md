@@ -36,5 +36,9 @@ category: Categorizes the expense into specific expenditure categories, aiding i
 date: Indicates the date on which the expense occurred.
 The database schema adheres to relational database principles, leveraging primary and foreign key constraints to maintain data integrity and enforce referential integrity between related tables. By organizing financial data into structured tables and establishing relationships between them, the family_finance database facilitates efficient management and analysis of the family's financial affairs.
 
-# 
+# MongoDB
+
+MongoDB is used to store and manage notes associated with family finances, providing flexibility and scalability for organizing financial information.
+It serves as a complementary database to MySQL, storing financial notes associated with family members, offers flexibility in schema design, allowing dynamic updates and accommodating diverse data types. 
+With its scalability and fault tolerance, MongoDB ensures reliable storage and retrieval of financial information, enhancing the overall robustness and performance of this application.
 
