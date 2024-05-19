@@ -42,3 +42,15 @@ MongoDB is used to store and manage notes associated with family finances, provi
 It serves as a complementary database to MySQL, storing financial notes associated with family members, offers flexibility in schema design, allowing dynamic updates and accommodating diverse data types. 
 With its scalability and fault tolerance, MongoDB ensures reliable storage and retrieval of financial information, enhancing the overall robustness and performance of this application.
 
+
+# Express js
+In this project, Express.js acts as the backend framework, facilitating the creation of RESTful APIs for managing family financial data. 
+It handles HTTP requests, routes them to appropriate endpoints, and interacts with MySQL and MongoDB databases. With its middleware support and modular architecture, Express.js enables efficient request handling, data validation, and response generation, ensuring smooth communication between the client and server components of your application.
+
+
+
+
+
+
+
+
