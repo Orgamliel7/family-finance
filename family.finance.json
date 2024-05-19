@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6649e16d00c9d69bb42b78eb"
+  },
+  "member_id": 1,
+  "notes": [
+    {
+      "income_id": 1,
+      "note": "Monthly salary"
+    },
+    {
+      "expense_id": 1,
+      "note": "Grocery shopping"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6649e18200c9d69bb42b78ed"
+  },
+  "member_id": 2,
+  "notes": [
+    {
+      "income_id": 2,
+      "note": "Freelance project"
+    },
+    {
+      "expense_id": 2,
+      "note": "Online courses"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6649e18e00c9d69bb42b78ef"
+  },
+  "member_id": 3,
+  "notes": [
+    {
+      "income_id": 3,
+      "note": "Allowance"
+    },
+    {
+      "expense_id": 3,
+      "note": "Books"
+    }
+  ]
+}]
