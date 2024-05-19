@@ -1,0 +1,5 @@
+db.transaction_notes.insertMany([
+    { member_id: 1, notes: [{ income_id: 1, note: 'Monthly salary' }, { expense_id: 1, note: 'Grocery shopping' }] },
+    { member_id: 2, notes: [{ income_id: 2, note: 'Freelance project' }, { expense_id: 2, note: 'Online courses' }] },
+    { member_id: 3, notes: [{ income_id: 3, note: 'Allowance' }, { expense_id: 3, note: 'Books' }] }
+]);
