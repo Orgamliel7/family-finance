@@ -47,6 +47,14 @@ With its scalability and fault tolerance, MongoDB ensures reliable storage and r
 In this project, Express.js acts as the backend framework, facilitating the creation of RESTful APIs for managing family financial data. 
 It handles HTTP requests, routes them to appropriate endpoints, and interacts with MySQL and MongoDB databases. With its middleware support and modular architecture, Express.js enables efficient request handling, data validation, and response generation, ensuring smooth communication between the client and server components of your application.
 
+# User guide:
+
+* Ensure Databases Are Running: Before starting, make sure that both MySQL and MongoDB servers are running on your machine.
+
+* Start the Application: Open a terminal or command prompt, navigate to the project directory where the JavaScript files are located, and run the command node index.js.
+
+* Interact via HTTP Requests: Once the application is running, you can interact with it by sending HTTP requests. You can do this using tools like cURL or Postman, or by writing scripts in languages like JavaScript or Python.
+
 
 
 
