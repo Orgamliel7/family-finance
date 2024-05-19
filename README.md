@@ -46,6 +46,24 @@ With its scalability and fault tolerance, MongoDB ensures reliable storage and r
 # Express js
 In this project, Express.js acts as the backend framework, facilitating the creation of RESTful APIs for managing family financial data. 
 It handles HTTP requests, routes them to appropriate endpoints, and interacts with MySQL and MongoDB databases. With its middleware support and modular architecture, Express.js enables efficient request handling, data validation, and response generation, ensuring smooth communication between the client and server components of your application.
+summary of the JavaScript code used in your project:
+
+**Dependencies and Setup:**
+
+The project uses Express for creating a web server, MySQL for interacting with a MySQL database, and Mongoose for connecting to a MongoDB database.
+**MySQL Connection:**
+
+Establishes a connection to the MySQL database using the mysql package. If successful, it logs a message indicating the connection is established.
+**MongoDB Connection:**
+
+Connects to the MongoDB database at localhost:27017 in the family database using Mongoose.
+**MongoDB Schema and Model:**
+
+Defines a schema for storing notes related to family members. Each note can be associated with an income or an expense.
+**Routes:**
+
+Get Financial Details: Fetches income, expense, and note details for a family member by their ID.
+Add Income or Expense: Allows adding new income or expense entries along with notes for a family member.
 
 # User guide:
 
